@@ -1,0 +1,14 @@
+package: community.lazycat.app.wok-ing-dead
+version: 0.1.0
+name: Wok-ing Dead
+description: "A rainy-night Chinatown zombie shooter in the browser (Three.js)."
+min_os_version: "1.5.0"
+homepage: https://github.com/dashhuang/wok-ing-dead
+author: dashhuang
+locales:
+  zh:
+    name: 守护夜排档
+    description: "雨夜唐人街打僵尸的浏览器 FPS 游戏（Three.js）：杀敌攒镬气、加菜升级，颠锅炒菜打包外卖，放倒「招牌菜」后从检疫关卡撤离。"
+  en:
+    name: Wok-ing Dead
+    description: "A rainy-night Chinatown zombie shooter in the browser (Three.js)."
