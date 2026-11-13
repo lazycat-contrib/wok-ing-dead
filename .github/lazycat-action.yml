@@ -1,0 +1,29 @@
+version: 1
+
+project:
+  root: .
+  build_config: lzc-build.yml
+  package_file: package.yml
+  output: dist/application.lpk
+  target_arch: amd64
+
+update:
+  strategy: publish
+  allow_downgrade: false
+  version_source:
+    type: git
+
+build:
+  toolchains:
+    - kind: node
+      version: 22.x
+  run_buildscript: true
+
+stores:
+  official:
+    enabled: false
+  private:
+    enabled: true
+    skip_if_version_exists: true
+    name: 守护夜排档
+    summary: 雨夜唐人街打僵尸的浏览器 FPS
