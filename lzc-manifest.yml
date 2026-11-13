@@ -1,0 +1,20 @@
+application:
+  subdomain: wok-ing-dead
+  multi_instance: false
+  public_path:
+    - /
+  upstreams:
+    - location: /
+      backend: file:///lzcapp/pkg/content/dist/
+usage: |
+  守护夜排档（Wok-ing Dead）：雨夜唐人街打僵尸的浏览器 FPS，基于 Three.js。
+
+  玩法要点：
+    - WASD 移动，鼠标瞄准，左键射击；R 换弹（同时补满身上所有武器的弹匣）
+    - 数字键 1-9 / 滚轮切换武器，Q 回上一把，按住 Q 打开武器轮盘
+    - Shift 冲刺，C 蹲下，Esc 暂停；手机端点屏幕下方武器栏换枪，长按「切枪」打开轮盘
+    - 杀敌攒镬气升级「加菜」，街口三口灶颠锅炒菜；三袋外卖齐后关底「招牌菜」上桌，放倒它再从东端检疫关卡撤离
+    - 四种弹药都要捡；补给箱和制服尸会掉弹药，红包可升级手上武器（最高五级）
+
+  需要支持 WebGL 2 的浏览器；首次点击页面后才会锁定鼠标、开启声音。
+  游戏进度（武器解锁、战绩）保存在浏览器本地。
