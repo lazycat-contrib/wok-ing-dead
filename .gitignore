@@ -6,6 +6,7 @@ dist/
 dist-single/
 arsenal/dist/
 arsenal/dist-single/
+site/
 
 # Test output
 test-results/
