@@ -18,7 +18,7 @@ jobs:
       config: .github/lazycat-action.yml
       versioned-release-asset: true
       toolchains: node
-      node-version: "22"
+      node-version: "22.x"
     secrets:
       APPSTORE_URL: ${{ secrets.APPSTORE_URL }}
       APPSTORE_TOKEN: ${{ secrets.APPSTORE_TOKEN }}
